@@ -30,6 +30,8 @@
     self.dataArr = @[@"CABaseAnimation - 基本动画",@"CAKeyframeAnimation - 路径动画",@"CAGradientLayer - 颜色渐变",@"CAReplicatorLayer"];
     self.tableView.showsVerticalScrollIndicator = NO;
     
+    
+    
 }
 
 -(UITableView *)tableView

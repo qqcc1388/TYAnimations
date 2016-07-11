@@ -18,6 +18,16 @@
 		873F8AD51D2B4B2200D231D7 /* TYBaseAnimationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873F8AD31D2B4B2200D231D7 /* TYBaseAnimationVC.xib */; };
 		873F8AD71D2B4FF800D231D7 /* 111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 873F8AD61D2B4FF800D231D7 /* 111.jpg */; };
 		873F8ADA1D2B518A00D231D7 /* UIView+FastKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 873F8AD91D2B518A00D231D7 /* UIView+FastKit.m */; };
+		877BE8581D337DAF0008D0D9 /* TYAnimationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BE8571D337DAF0008D0D9 /* TYAnimationsController.m */; };
+		877BE85B1D337DC80008D0D9 /* TYCaLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BE85A1D337DC80008D0D9 /* TYCaLayerViewController.m */; };
+		877BE8601D3384F50008D0D9 /* XWMagicMoveAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BE85F1D3384F50008D0D9 /* XWMagicMoveAnimator.m */; };
+		877BE8631D3385550008D0D9 /* UIViewController+XWTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BE8621D3385550008D0D9 /* UIViewController+XWTransition.m */; };
+		877BE8681D3385D20008D0D9 /* XWTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BE8651D3385D20008D0D9 /* XWTransitionAnimator.m */; };
+		877BE8691D3385D20008D0D9 /* XWInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BE8671D3385D20008D0D9 /* XWInteractiveTransition.m */; };
+		877BE86C1D3387780008D0D9 /* TYTansAmimationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BE86B1D3387780008D0D9 /* TYTansAmimationsController.m */; };
+		877BE86F1D3387ED0008D0D9 /* TYTaobaoDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BE86E1D3387ED0008D0D9 /* TYTaobaoDetailController.m */; };
+		877BE8731D338A190008D0D9 /* XWDrawerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BE8721D338A190008D0D9 /* XWDrawerAnimator.m */; };
+		877BE8761D338A870008D0D9 /* TYTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BE8751D338A870008D0D9 /* TYTestController.m */; };
 		87DF6E501D2B60ED0063AEB8 /* CAAnimationGroup+Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DF6E4B1D2B60ED0063AEB8 /* CAAnimationGroup+Group.m */; };
 		87DF6E511D2B60ED0063AEB8 /* CABasicAnimation+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DF6E4D1D2B60ED0063AEB8 /* CABasicAnimation+Base.m */; };
 		87DF6E521D2B60ED0063AEB8 /* CAKeyframeAnimation+Keyframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DF6E4F1D2B60ED0063AEB8 /* CAKeyframeAnimation+Keyframe.m */; };
@@ -69,6 +79,26 @@
 		873F8AD81D2B518A00D231D7 /* UIView+FastKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+FastKit.h"; path = "../UIView+FastKit.h"; sourceTree = "<group>"; };
 		873F8AD91D2B518A00D231D7 /* UIView+FastKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FastKit.m"; path = "../UIView+FastKit.m"; sourceTree = "<group>"; };
 		873F8ADB1D2B519900D231D7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		877BE8561D337DAF0008D0D9 /* TYAnimationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAnimationsController.h; sourceTree = "<group>"; };
+		877BE8571D337DAF0008D0D9 /* TYAnimationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAnimationsController.m; sourceTree = "<group>"; };
+		877BE8591D337DC80008D0D9 /* TYCaLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCaLayerViewController.h; sourceTree = "<group>"; };
+		877BE85A1D337DC80008D0D9 /* TYCaLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCaLayerViewController.m; sourceTree = "<group>"; };
+		877BE85E1D3384F50008D0D9 /* XWMagicMoveAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWMagicMoveAnimator.h; sourceTree = "<group>"; };
+		877BE85F1D3384F50008D0D9 /* XWMagicMoveAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWMagicMoveAnimator.m; sourceTree = "<group>"; };
+		877BE8611D3385550008D0D9 /* UIViewController+XWTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XWTransition.h"; sourceTree = "<group>"; };
+		877BE8621D3385550008D0D9 /* UIViewController+XWTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XWTransition.m"; sourceTree = "<group>"; };
+		877BE8641D3385D20008D0D9 /* XWTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWTransitionAnimator.h; sourceTree = "<group>"; };
+		877BE8651D3385D20008D0D9 /* XWTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWTransitionAnimator.m; sourceTree = "<group>"; };
+		877BE8661D3385D20008D0D9 /* XWInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWInteractiveTransition.h; sourceTree = "<group>"; };
+		877BE8671D3385D20008D0D9 /* XWInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWInteractiveTransition.m; sourceTree = "<group>"; };
+		877BE86A1D3387780008D0D9 /* TYTansAmimationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTansAmimationsController.h; sourceTree = "<group>"; };
+		877BE86B1D3387780008D0D9 /* TYTansAmimationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTansAmimationsController.m; sourceTree = "<group>"; };
+		877BE86D1D3387ED0008D0D9 /* TYTaobaoDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTaobaoDetailController.h; sourceTree = "<group>"; };
+		877BE86E1D3387ED0008D0D9 /* TYTaobaoDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTaobaoDetailController.m; sourceTree = "<group>"; };
+		877BE8711D338A190008D0D9 /* XWDrawerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWDrawerAnimator.h; sourceTree = "<group>"; };
+		877BE8721D338A190008D0D9 /* XWDrawerAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWDrawerAnimator.m; sourceTree = "<group>"; };
+		877BE8741D338A870008D0D9 /* TYTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTestController.h; sourceTree = "<group>"; };
+		877BE8751D338A870008D0D9 /* TYTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTestController.m; sourceTree = "<group>"; };
 		87DF6E4A1D2B60ED0063AEB8 /* CAAnimationGroup+Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimationGroup+Group.h"; sourceTree = "<group>"; };
 		87DF6E4B1D2B60ED0063AEB8 /* CAAnimationGroup+Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimationGroup+Group.m"; sourceTree = "<group>"; };
 		87DF6E4C1D2B60ED0063AEB8 /* CABasicAnimation+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CABasicAnimation+Base.h"; sourceTree = "<group>"; };
@@ -136,6 +166,7 @@
 		873F8A9B1D2B48B500D231D7 /* TYAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				877BE85C1D3384E50008D0D9 /* Lib */,
 				873F8ACC1D2B4AF200D231D7 /* Animations */,
 				87DF6E481D2B60ED0063AEB8 /* Category */,
 				873F8A9C1D2B48B500D231D7 /* Supporting Files */,
@@ -148,6 +179,10 @@
 			children = (
 				873F8AC91D2B48E800D231D7 /* TYViewController.h */,
 				873F8ACA1D2B48E800D231D7 /* TYViewController.m */,
+				877BE8561D337DAF0008D0D9 /* TYAnimationsController.h */,
+				877BE8571D337DAF0008D0D9 /* TYAnimationsController.m */,
+				877BE8591D337DC80008D0D9 /* TYCaLayerViewController.h */,
+				877BE85A1D337DC80008D0D9 /* TYCaLayerViewController.m */,
 				873F8AA21D2B48B500D231D7 /* Assets.xcassets */,
 				873F8AA41D2B48B500D231D7 /* LaunchScreen.storyboard */,
 				873F8AA71D2B48B500D231D7 /* Info.plist */,
@@ -215,13 +250,52 @@
 		873F8AD01D2B4AF200D231D7 /* TransAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				877BE86A1D3387780008D0D9 /* TYTansAmimationsController.h */,
+				877BE86B1D3387780008D0D9 /* TYTansAmimationsController.m */,
+				877BE86D1D3387ED0008D0D9 /* TYTaobaoDetailController.h */,
+				877BE86E1D3387ED0008D0D9 /* TYTaobaoDetailController.m */,
+				877BE8741D338A870008D0D9 /* TYTestController.h */,
+				877BE8751D338A870008D0D9 /* TYTestController.m */,
 			);
 			path = TransAnimation;
+			sourceTree = "<group>";
+		};
+		877BE85C1D3384E50008D0D9 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				877BE8701D338A190008D0D9 /* XWDrawerAnimator */,
+				877BE8641D3385D20008D0D9 /* XWTransitionAnimator.h */,
+				877BE8651D3385D20008D0D9 /* XWTransitionAnimator.m */,
+				877BE8661D3385D20008D0D9 /* XWInteractiveTransition.h */,
+				877BE8671D3385D20008D0D9 /* XWInteractiveTransition.m */,
+				877BE85D1D3384F50008D0D9 /* XWMagicMoveAnimator */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		877BE85D1D3384F50008D0D9 /* XWMagicMoveAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				877BE85E1D3384F50008D0D9 /* XWMagicMoveAnimator.h */,
+				877BE85F1D3384F50008D0D9 /* XWMagicMoveAnimator.m */,
+			);
+			path = XWMagicMoveAnimator;
+			sourceTree = "<group>";
+		};
+		877BE8701D338A190008D0D9 /* XWDrawerAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				877BE8711D338A190008D0D9 /* XWDrawerAnimator.h */,
+				877BE8721D338A190008D0D9 /* XWDrawerAnimator.m */,
+			);
+			path = XWDrawerAnimator;
 			sourceTree = "<group>";
 		};
 		87DF6E481D2B60ED0063AEB8 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				877BE8611D3385550008D0D9 /* UIViewController+XWTransition.h */,
+				877BE8621D3385550008D0D9 /* UIViewController+XWTransition.m */,
 				873F8AD81D2B518A00D231D7 /* UIView+FastKit.h */,
 				873F8AD91D2B518A00D231D7 /* UIView+FastKit.m */,
 				87DF6E491D2B60ED0063AEB8 /* BaseAnimation */,
@@ -397,16 +471,26 @@
 			files = (
 				87DF6E6B1D2BA5C20063AEB8 /* TYLoadingView.m in Sources */,
 				87DF6E521D2B60ED0063AEB8 /* CAKeyframeAnimation+Keyframe.m in Sources */,
+				877BE8601D3384F50008D0D9 /* XWMagicMoveAnimator.m in Sources */,
 				87DF6E5C1D2B9A780063AEB8 /* TYGradientLayerVC.m in Sources */,
+				877BE8691D3385D20008D0D9 /* XWInteractiveTransition.m in Sources */,
+				877BE8581D337DAF0008D0D9 /* TYAnimationsController.m in Sources */,
 				87DF6E511D2B60ED0063AEB8 /* CABasicAnimation+Base.m in Sources */,
 				873F8AA11D2B48B500D231D7 /* AppDelegate.m in Sources */,
+				877BE8761D338A870008D0D9 /* TYTestController.m in Sources */,
+				877BE86C1D3387780008D0D9 /* TYTansAmimationsController.m in Sources */,
 				873F8ADA1D2B518A00D231D7 /* UIView+FastKit.m in Sources */,
 				87DF6E581D2B91A90063AEB8 /* DrawView.m in Sources */,
 				87DF6E551D2B90860063AEB8 /* TYKeyPathAnimationVC.m in Sources */,
 				873F8A9E1D2B48B500D231D7 /* main.m in Sources */,
 				87DF6E621D2BA4290063AEB8 /* TYReplicatorLayerVC.m in Sources */,
+				877BE8731D338A190008D0D9 /* XWDrawerAnimator.m in Sources */,
+				877BE8681D3385D20008D0D9 /* XWTransitionAnimator.m in Sources */,
 				873F8ACB1D2B48E800D231D7 /* TYViewController.m in Sources */,
 				87DF6E501D2B60ED0063AEB8 /* CAAnimationGroup+Group.m in Sources */,
+				877BE86F1D3387ED0008D0D9 /* TYTaobaoDetailController.m in Sources */,
+				877BE85B1D337DC80008D0D9 /* TYCaLayerViewController.m in Sources */,
+				877BE8631D3385550008D0D9 /* UIViewController+XWTransition.m in Sources */,
 				873F8AD41D2B4B2200D231D7 /* TYBaseAnimationVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

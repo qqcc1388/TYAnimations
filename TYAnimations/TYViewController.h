@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TYViewController : UIViewController
+@interface TYViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+
+@property (nonatomic,strong)UITableView *tableView;
+@property (nonatomic,strong)NSArray *dataArr;
 
 @end

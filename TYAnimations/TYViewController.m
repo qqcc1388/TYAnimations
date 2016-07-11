@@ -11,11 +11,10 @@
 #import "TYKeyPathAnimationVC.h"
 #import "TYGradientLayerVC.h"
 #import "TYReplicatorLayerVC.h"
+#import "TYAnimationsController.h"
+#import "TYCaLayerViewController.h"
 
-@interface TYViewController ()<UITableViewDelegate,UITableViewDataSource>
-
-@property (nonatomic,strong)UITableView *tableView;
-@property (nonatomic,strong)NSArray *dataArr;
+@interface TYViewController ()
 
 
 @end
@@ -26,11 +25,10 @@
     [super viewDidLoad];
     
     // Do any additional setup after loading the view.
-    self.title = @"各种动画Demo";
-    self.dataArr = @[@"CABaseAnimation - 基本动画",@"CAKeyframeAnimation - 路径动画",@"CAGradientLayer - 颜色渐变",@"CAReplicatorLayer"];
+    self.title = @"各种动画效果实现";
+//    self.dataArr = @[@"CABaseAnimation - 基本动画",@"CAKeyframeAnimation - 路径动画",@"CAGradientLayer - 颜色渐变",@"CAReplicatorLayer"];
+    self.dataArr = @[@"Animations",@"CALayer"];
     self.tableView.showsVerticalScrollIndicator = NO;
-    
-    
     
 }
 
@@ -67,29 +65,18 @@
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     if (indexPath.row == 0) {
-        TYBaseAnimationVC *vc = [[TYBaseAnimationVC alloc] init];
-        vc.title = @"基础动画";
-        [self.navigationController pushViewController:vc animated:YES];
+        TYAnimationsController *animations = [[TYAnimationsController alloc] init];
+        animations.title = @"Animations";
+        [self.navigationController pushViewController:animations animated:YES];
     }
-    else if (indexPath.row == 1)
+    else if(indexPath.row == 1)
     {
-        TYKeyPathAnimationVC *vc = [[TYKeyPathAnimationVC alloc] init];
-        vc.title = @"路径动画";
-        [self.navigationController pushViewController:vc animated:YES];
+        TYCaLayerViewController *layers = [[TYCaLayerViewController alloc] init];
+        layers.title = @"CALayer";
+        [self.navigationController pushViewController:layers animated:YES];
     }
-    else if (indexPath.row == 2)
-    {
-        TYGradientLayerVC *vc = [[TYGradientLayerVC alloc] init];
-        vc.title = @"颜色渐变";
-        [self.navigationController pushViewController:vc animated:YES];
 
-    }
-    else if (indexPath.row == 3)
-    {
-        TYReplicatorLayerVC *vc = [[TYReplicatorLayerVC alloc] init];
-        vc.title = @"Loading动画";
-        [self.navigationController pushViewController:vc animated:YES];
-    }
+
     
 }
 @end

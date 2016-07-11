@@ -8,6 +8,7 @@
 
 #import "TYTansAmimationsController.h"
 #import "TYTaobaoDetailController.h"
+#import "TYCircleSpreadFromController.h"
 
 @interface TYTansAmimationsController ()
 
@@ -19,7 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.dataArr = @[@"仿淘宝效果"];
+    self.dataArr = @[@"仿淘宝效果",@"小圆点中心扩散"];
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -27,6 +28,11 @@
     if (indexPath.row == 0) {
         TYTaobaoDetailController *vc = [[TYTaobaoDetailController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if (indexPath.row == 1)
+    {
+        TYCircleSpreadFromController *fromVc = [[TYCircleSpreadFromController alloc] init];
+        [self.navigationController pushViewController:fromVc animated:YES];
     }
 }
 /*

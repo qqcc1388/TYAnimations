@@ -28,6 +28,9 @@
 		877BE86F1D3387ED0008D0D9 /* TYTaobaoDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BE86E1D3387ED0008D0D9 /* TYTaobaoDetailController.m */; };
 		877BE8731D338A190008D0D9 /* XWDrawerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BE8721D338A190008D0D9 /* XWDrawerAnimator.m */; };
 		877BE8761D338A870008D0D9 /* TYTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BE8751D338A870008D0D9 /* TYTestController.m */; };
+		877BE87A1D338EF20008D0D9 /* XWCircleSpreadAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BE8791D338EF20008D0D9 /* XWCircleSpreadAnimator.m */; };
+		877BE87D1D338F960008D0D9 /* TYCircleSpreadFromController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BE87C1D338F960008D0D9 /* TYCircleSpreadFromController.m */; };
+		877BE8801D338FFF0008D0D9 /* TYCircleSpreadToController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BE87F1D338FFF0008D0D9 /* TYCircleSpreadToController.m */; };
 		87DF6E501D2B60ED0063AEB8 /* CAAnimationGroup+Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DF6E4B1D2B60ED0063AEB8 /* CAAnimationGroup+Group.m */; };
 		87DF6E511D2B60ED0063AEB8 /* CABasicAnimation+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DF6E4D1D2B60ED0063AEB8 /* CABasicAnimation+Base.m */; };
 		87DF6E521D2B60ED0063AEB8 /* CAKeyframeAnimation+Keyframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DF6E4F1D2B60ED0063AEB8 /* CAKeyframeAnimation+Keyframe.m */; };
@@ -99,6 +102,12 @@
 		877BE8721D338A190008D0D9 /* XWDrawerAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWDrawerAnimator.m; sourceTree = "<group>"; };
 		877BE8741D338A870008D0D9 /* TYTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTestController.h; sourceTree = "<group>"; };
 		877BE8751D338A870008D0D9 /* TYTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTestController.m; sourceTree = "<group>"; };
+		877BE8781D338EF20008D0D9 /* XWCircleSpreadAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWCircleSpreadAnimator.h; sourceTree = "<group>"; };
+		877BE8791D338EF20008D0D9 /* XWCircleSpreadAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWCircleSpreadAnimator.m; sourceTree = "<group>"; };
+		877BE87B1D338F960008D0D9 /* TYCircleSpreadFromController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCircleSpreadFromController.h; sourceTree = "<group>"; };
+		877BE87C1D338F960008D0D9 /* TYCircleSpreadFromController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCircleSpreadFromController.m; sourceTree = "<group>"; };
+		877BE87E1D338FFF0008D0D9 /* TYCircleSpreadToController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCircleSpreadToController.h; sourceTree = "<group>"; };
+		877BE87F1D338FFF0008D0D9 /* TYCircleSpreadToController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCircleSpreadToController.m; sourceTree = "<group>"; };
 		87DF6E4A1D2B60ED0063AEB8 /* CAAnimationGroup+Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimationGroup+Group.h"; sourceTree = "<group>"; };
 		87DF6E4B1D2B60ED0063AEB8 /* CAAnimationGroup+Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimationGroup+Group.m"; sourceTree = "<group>"; };
 		87DF6E4C1D2B60ED0063AEB8 /* CABasicAnimation+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CABasicAnimation+Base.h"; sourceTree = "<group>"; };
@@ -256,6 +265,10 @@
 				877BE86E1D3387ED0008D0D9 /* TYTaobaoDetailController.m */,
 				877BE8741D338A870008D0D9 /* TYTestController.h */,
 				877BE8751D338A870008D0D9 /* TYTestController.m */,
+				877BE87B1D338F960008D0D9 /* TYCircleSpreadFromController.h */,
+				877BE87C1D338F960008D0D9 /* TYCircleSpreadFromController.m */,
+				877BE87E1D338FFF0008D0D9 /* TYCircleSpreadToController.h */,
+				877BE87F1D338FFF0008D0D9 /* TYCircleSpreadToController.m */,
 			);
 			path = TransAnimation;
 			sourceTree = "<group>";
@@ -263,6 +276,7 @@
 		877BE85C1D3384E50008D0D9 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				877BE8771D338EF20008D0D9 /* XWCircleSpreadAnimator */,
 				877BE8701D338A190008D0D9 /* XWDrawerAnimator */,
 				877BE8641D3385D20008D0D9 /* XWTransitionAnimator.h */,
 				877BE8651D3385D20008D0D9 /* XWTransitionAnimator.m */,
@@ -289,6 +303,15 @@
 				877BE8721D338A190008D0D9 /* XWDrawerAnimator.m */,
 			);
 			path = XWDrawerAnimator;
+			sourceTree = "<group>";
+		};
+		877BE8771D338EF20008D0D9 /* XWCircleSpreadAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				877BE8781D338EF20008D0D9 /* XWCircleSpreadAnimator.h */,
+				877BE8791D338EF20008D0D9 /* XWCircleSpreadAnimator.m */,
+			);
+			path = XWCircleSpreadAnimator;
 			sourceTree = "<group>";
 		};
 		87DF6E481D2B60ED0063AEB8 /* Category */ = {
@@ -487,10 +510,13 @@
 				877BE8731D338A190008D0D9 /* XWDrawerAnimator.m in Sources */,
 				877BE8681D3385D20008D0D9 /* XWTransitionAnimator.m in Sources */,
 				873F8ACB1D2B48E800D231D7 /* TYViewController.m in Sources */,
+				877BE8801D338FFF0008D0D9 /* TYCircleSpreadToController.m in Sources */,
 				87DF6E501D2B60ED0063AEB8 /* CAAnimationGroup+Group.m in Sources */,
 				877BE86F1D3387ED0008D0D9 /* TYTaobaoDetailController.m in Sources */,
 				877BE85B1D337DC80008D0D9 /* TYCaLayerViewController.m in Sources */,
 				877BE8631D3385550008D0D9 /* UIViewController+XWTransition.m in Sources */,
+				877BE87D1D338F960008D0D9 /* TYCircleSpreadFromController.m in Sources */,
+				877BE87A1D338EF20008D0D9 /* XWCircleSpreadAnimator.m in Sources */,
 				873F8AD41D2B4B2200D231D7 /* TYBaseAnimationVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
